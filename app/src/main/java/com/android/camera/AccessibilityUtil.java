@@ -1,13 +1,12 @@
 package com.android.camera;
 
 import android.accessibilityservice.AccessibilityServiceInfo;
-import android.content.Context;
-import android.support.v4.view.accessibility.AccessibilityManagerCompat;
+
+import androidx.core.view.accessibility.AccessibilityManagerCompat;
 import android.view.View;
 import android.view.accessibility.AccessibilityManager;
 import android.widget.Button;
 import com.android.camera.debug.Log;
-import com.android.camera.ui.MainActivityLayout;
 import com.android.camera.ui.PreviewOverlay;
 import com.android.camera.util.AndroidServices;
 import com.android.camera2.R;

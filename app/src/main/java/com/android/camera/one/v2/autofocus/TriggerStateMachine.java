@@ -17,9 +17,7 @@
 package com.android.camera.one.v2.autofocus;
 
 import android.hardware.camera2.CaptureResult;
-import android.support.annotation.Nullable;
-
-import com.android.camera.async.Updatable;
+import androidx.annotation.Nullable;
 
 import java.util.Set;
 

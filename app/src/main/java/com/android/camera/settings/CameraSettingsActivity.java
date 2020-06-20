@@ -29,7 +29,7 @@ import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 import android.view.MenuItem;
 
 import com.android.camera.FatalErrorHandler;
@@ -38,7 +38,6 @@ import com.android.camera.debug.Log;
 import com.android.camera.device.CameraId;
 import com.android.camera.one.OneCamera.Facing;
 import com.android.camera.one.OneCameraAccessException;
-import com.android.camera.one.OneCameraCharacteristics;
 import com.android.camera.one.OneCameraException;
 import com.android.camera.one.OneCameraManager;
 import com.android.camera.one.OneCameraModule;
